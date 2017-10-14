@@ -52,4 +52,5 @@ let g:loaded_logipat = 1
 " silver searcher with ack.vim
 if executable('ag')
   let g:ackprg = 'ag --nogroup --nocolor --column'
+  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 endif
