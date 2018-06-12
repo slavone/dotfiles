@@ -29,8 +29,6 @@ set shiftwidth=2 "amount of spaces for > indent
 "----------------------- Custom binds ----------------------------
 
 inoremap <%     <%%><Left><Left>
-inoremap jk <Esc>
-
 nnoremap Q <nop> "disable ex mode
 
 "----------------------- Vim-Airline ------------------------------
